@@ -1,0 +1,22 @@
+{
+  "stimulus_string": {
+    "LongName": "Word/non-word Stimulus",
+    "Description": "Stimuli were either words or non-word letter strings"
+  },
+  "response": {
+    "LongName": "Participant response",
+    "Description": "The button or key pressed by the participant in response to the stimulus.",
+    "Levels": {
+      "1": "Left button press.",
+      "2": "Right button press."
+    }
+  },
+  "correct_response": {
+    "LongName": "Correct Response",
+    "Description": "Correct button press",
+    "Levels": {
+      "1": "Left button press.",
+      "2": "Right button press."
+    }
+  }
+}

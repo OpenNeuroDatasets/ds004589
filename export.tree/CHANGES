@@ -1,4 +1,0 @@
-2.0.0 2026-08-12
-  - Added fmap files. Corrected errors in events files. Removed subject sub-234 due to poor overall MRI data quality. Other cleanup changes to ensure bids compatibility.
-1.0.0 2023-06-02
-  - Initial upload

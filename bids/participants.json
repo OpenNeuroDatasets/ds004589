@@ -1,0 +1,97 @@
+{
+  "participant_id": {
+    "LongName": "Participant ID",
+    "Description": "Unique identifier for each participant."
+  },
+  "age": {
+    "LongName": "Age",
+    "Description": "Age of the participant at time of scan.",
+    "Units": "years"
+  },
+  "sex": {
+    "LongName": "Sex",
+    "Description": "Self-reported sex of the participant.",
+    "Levels": {
+      "M": "Male",
+      "F": "Female"
+    }
+  },
+  "LI_lang": {
+    "LongName": "Language Laterality Index",
+    "Description": "Laterality index for language, derived from fMRI activation. Positive values indicate left-hemisphere dominance, negative values indicate right-hemisphere dominance.",
+    "Units": "arbitrary units",
+    "MinimumValue": -1,
+    "MaximumValue": 1
+  },
+  "Handedness": {
+    "LongName": "Handedness",
+    "Description": "Dominant hand of the participant as determined through EHI scores."
+  },
+  "LH_bin": {
+    "LongName": "Left Handedness (Binary)",
+    "Description": "Binary classification of handedness group.",
+    "Levels": {
+      "0": "Right handed.",
+      "1": "Left handed."
+    }
+  },
+  "EHI": {
+    "LongName": "Edinburgh Handedness Inventory Score",
+    "Description": "Handedness score derived from the Edinburgh Handedness Inventory (Oldfield, 1971). Ranges from -100 (strongly left-handed) to +100 (strongly right-handed).",
+    "Units": "arbitrary units",
+    "MinimumValue": -100,
+    "MaximumValue": 100
+  },
+  "FaceStudy": {
+    "LongName": "Face Study Analysis Inclusion",
+    "Description": "Include in group analyses of the face study task",
+    "Levels": {
+      "0": "exclude",
+      "1": "include"
+    }
+  },
+  "FaceTest": {
+    "LongName": "Face Test Analysis Inclusion",
+    "Description": "Include in group analyses of the face test task",
+    "Levels": {
+      "0": "exclude",
+      "1": "include"
+    }
+  },
+  "WordStudy": {
+    "LongName": "Word Study Analysis Inclusion",
+    "Description": "Include in group analyses of the word study task",
+    "Levels": {
+      "0": "exclude",
+      "1": "include"
+    }
+  },
+  "WordTest": {
+    "LongName": "Word Test Analysis Inclusion",
+    "Description": "Include in group analyses of the word test task",
+    "Levels": {
+      "0": "exclude",
+      "1": "include"
+    }
+  },
+  "IRQ_Verbalization": {
+    "LongName": "IRQ Verbalization Subscale",
+    "Description": "Score on the Verbalization subscale of the Internal Representations Questionnaire (IRQ).",
+    "Units": "arbitrary units"
+  },
+  "IRQ_Orthogonal": {
+    "LongName": "IRQ Orthogonal Subscale",
+    "Description": "Score on the Orthogonal subscale of the Internal Representations Questionnaire (IRQ).",
+    "Units": "arbitrary units"
+  },
+  "IRQ_Manipulation": {
+    "LongName": "IRQ Manipulation Subscale",
+    "Description": "Score on the Manipulation subscale of the Internal Representations Questionnaire (IRQ).",
+    "Units": "arbitrary units"
+  },
+  "IRQ_Visualization": {
+    "LongName": "IRQ Visualization Subscale",
+    "Description": "Score on the Visualization subscale of the Internal Representations Questionnaire (IRQ).",
+    "Units": "arbitrary units"
+  }
+}

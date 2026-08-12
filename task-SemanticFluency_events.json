@@ -1,5 +1,5 @@
 {
-  "stimulus": {
+  "stimulus_string": {
     "LongName": "Word/non-word Stimulus",
     "Description": "Stimuli were either words or non-word letter strings"
   },

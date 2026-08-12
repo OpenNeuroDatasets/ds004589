@@ -1,14 +1,4 @@
 {
-  "onset": {
-    "LongName": "Event onset",
-    "Description": "Time of event onset relative to the start of the acquisition, in seconds.",
-    "Units": "s"
-  },
-  "duration": {
-    "LongName": "Event duration",
-    "Description": "Duration of the event, in seconds.",
-    "Units": "s"
-  },
   "trial_type": {
     "LongName": "Trial type",
     "Description": "Categorical label indicating the condition or type of trial.",
@@ -29,10 +19,5 @@
       "1": "Left button press.",
       "2": "Right button press."
     }
-  },
-  "response_time": {
-    "LongName": "Response time",
-    "Description": "Time elapsed between stimulus onset and participant response, in seconds. n/a if no response was recorded.",
-    "Units": "s"
   }
 }
